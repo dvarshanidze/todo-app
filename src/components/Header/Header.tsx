@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                Todo
             </h2>
             <button
-               className={`bg-[url('/public/images/icon-sun.svg')] dark:bg-[url('/public/images/icon-moon.svg')] h-[24px] w-[24px] bg-no-repeat bg-cover transition`}
+               className={`bg-[url('/images/icon-sun.svg')] dark:bg-[url('/images/icon-moon.svg')] h-[24px] w-[24px] bg-no-repeat bg-cover transition`}
                aria-label="toggle theme"
                onClick={event => switchTheme(event)}
             ></button>
